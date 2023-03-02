@@ -8,8 +8,7 @@ import '@kangc/v-md-editor/lib/style/codemirror-editor.css';
 import vuepressTheme from '@kangc/v-md-editor/lib/theme/vuepress.js';
 import '@kangc/v-md-editor/lib/theme/style/vuepress.css';
 
-// highlightjs
-import hljs from 'highlight.js';
+// highlight
 import Prism from 'prismjs';
 
 // codemirror 编辑器的相关资源
@@ -47,7 +46,6 @@ import '@kangc/v-md-editor/lib/plugins/emoji/emoji.css';
 import 'prismjs/components/prism-json';
 import createTodoListPlugin from '@kangc/v-md-editor/lib/plugins/todo-list/index';
 import '@kangc/v-md-editor/lib/plugins/todo-list/todo-list.css';
-
 
 VMdEditor.Codemirror = Codemirror;
 VMdEditor.use(vuepressTheme, {
